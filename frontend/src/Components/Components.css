@@ -1,0 +1,31 @@
+/* --------- NAVBAR ----------- */
+
+.NavBar{
+    background-color: white;
+    height: 10vh;
+
+    padding: 0px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavBar .Nav-R img{
+    width: 120px;
+    cursor: pointer;
+}
+.NavBar .Nav-L{
+    width: 60%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NavBar .Nav-L a{
+    color: black;
+    text-decoration: none;
+    font-family: var(--Font1);
+}
+.NavBar .Nav-L a.active{
+    color:#7636C8;
+}
