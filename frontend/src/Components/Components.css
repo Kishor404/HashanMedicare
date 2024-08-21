@@ -29,3 +29,73 @@
 .NavBar .Nav-L a.active{
     color:#7636C8;
 }
+
+/* -------- FOOTER ---------- */
+
+.Foot-Contact{
+    background-color: #7636C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 40vh;
+}
+.Foot-Cont-Title{
+    color:rgb(218, 6, 6);
+    font-family: var(--Font4);
+    font-size: 40px;
+    margin: 0px;
+}
+.Foot-Cont-Title span{
+    color: white;
+}
+.Foot-Cont-Addr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 14pt;
+    color: white;
+}
+.Foot-Cont-Addr p{
+    margin: 5px;
+}
+.Foot-But{
+    background-color: #7636C8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13pt;
+    font-family: var(--Font1);
+    color: white;
+}
+.Foot-Contact img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    position: absolute;
+}
+.Foot-Data{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #11002794;
+    height: 100%;
+}
+.Foot-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+
+.Foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

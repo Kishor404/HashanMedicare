@@ -58,9 +58,9 @@
     height: 130px;
 }
 .Home-Hero-Words{
-    width: 80%;
+    width: 60%;
     font-size: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
 
     color: white;
     
@@ -84,4 +84,122 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Home-Hero-Title-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.Home-Hero-Title{
+    color:red;
+    font-family: var(--Font4);
+    font-size: 50px;
+    margin: 0px;
+}
+.Home-Hero-Title span{
+    color: white;
+}
+.Home-Hero-SubTitle{
+    color: white;
+}
+
+/* Services */
+
+.Home-Services-Cont{
+    background-color: #bc94f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0px 50px;
+}
+.Home-Services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Home-Services-R img{
+    border-radius: 16px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.Home-Services-L{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Home-Services-L p{
+    padding: 0px 0px 20px 0px;
+    text-align: justify;
+    line-height: 20px;
+}
+.Home-Services-But{
+    background-color: #7636C8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.Home-Services-But:hover{
+    background-color: white;
+    color: #7636C8;
+}
+
+/* Products */
+
+.Home-Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bc94f0;
+    padding: 20px 0px;
+}
+.Home-Products-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.Home-Products-Card{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    border-radius: 20px;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    cursor: pointer;
+}
+.Home-Products-Card:hover{
+    background-color: whitesmoke;
+}
+.Home-Products-Title{
+    font-size: 20pt;
+}
+.Home-Products-But{
+    text-decoration: none;
+    background-color: #7636C8;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Home-Products-Name{
+    font-size: 16pt;
 }

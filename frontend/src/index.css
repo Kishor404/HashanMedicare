@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
 :root{
   --Font1:"Josefin Sans", system-ui;
   --Font2:"Architects Daughter", system-ui;
   --Font3:"Mr Dafoe", system-ui;
+  --Font4:"Jockey One", sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--Font1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f2f2f2;
