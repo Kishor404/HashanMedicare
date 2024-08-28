@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="Nav-L">
         <Link to="/" className={`Nav-Home ${activeNav === "Nav-Home" ? "active" : ""}`} onClick={() => handleClick("Nav-Home")}>Home</Link>
         <Link to="/About" className={`Nav-About ${activeNav === "Nav-About" ? "active" : ""}`} onClick={() => handleClick("Nav-About")}>About</Link>
-        <Link to="/" className={`Nav-Products ${activeNav === "Nav-Products" ? "active" : ""}`} onClick={() => handleClick("Nav-Products")}>Products</Link>
+        <Link to="/Products" className={`Nav-Products ${activeNav === "Nav-Products" ? "active" : ""}`} onClick={() => handleClick("Nav-Products")}>Products</Link>
         <Link to="/" className={`Nav-Services ${activeNav === "Nav-Services" ? "active" : ""}`} onClick={() => handleClick("Nav-Services")}>Services</Link>
         <Link to="/" className={`Nav-Projects ${activeNav === "Nav-Projects" ? "active" : ""}`} onClick={() => handleClick("Nav-Projects")}>Projects</Link>
         <Link to="/" className={`Nav-Course ${activeNav === "Nav-Course" ? "active" : ""}`} onClick={() => handleClick("Nav-Course")}>Training Course</Link>
