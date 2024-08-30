@@ -1,0 +1,52 @@
+.Project-Card{
+    background-color: red;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Project-Card div,.Project-Card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 15pt;
+}
+.Project-Card div:hover{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.Project-Col{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Project-Row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Project-Cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.Project-Title{
+    font-size: 20pt;
+}

@@ -1,0 +1,58 @@
+.Contact-Body{
+    width:100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Contact-Cont{
+    width: 60%;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    border-radius: 20px;
+}
+.Contact-L{
+    width: 50%;
+    height: 50vh;
+}
+.Contact-L img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Contact-R{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Contact-Add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.Contact-Add p{
+    margin: 8px;
+}
+.Contact-R button{
+    background-color: purple;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 12pt;
+    font-family: var(--Font1);
+    border: 2px solid purple;
+}
+.Contact-R button:hover{
+    background-color: transparent;
+    color: purple;
+}

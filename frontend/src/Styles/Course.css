@@ -1,0 +1,52 @@
+.Course-Card{
+    background-color: red;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Course-Card div,.Course-Card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 15pt;
+}
+.Course-Card div:hover{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.Course-Col{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Course-Row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Course-Cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.Course-Title{
+    font-size: 20pt;
+}
