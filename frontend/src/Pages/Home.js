@@ -84,22 +84,31 @@ const Home=()=>{
                     <p className='Home-Products-Title'>| Our Products</p>
                     <div className='Home-Products-Cont'>
                         <Link className='Home-Products-Card'>
-                            <img src={Product1} alt='P1'/>
+                            <div className='Home-Product-Img'>
+                                <img src={Product1} alt='P1'/>
+                            </div>
+                            
                             <p className='Home-Products-Name'>Radio Box</p>
                             <p>These card examples offer endless possibilities for displaying content, showcasing products, or presenting information in a visually appealing and organized manner.</p>
                         </Link>
                         <Link className='Home-Products-Card'>
-                            <img src={Product2} alt='P2'/>
+                            <div className='Home-Product-Img'>
+                                <img src={Product2} alt='P2'/>
+                            </div>
                             <p className='Home-Products-Name'>Communication Box</p>
                             <p>Cards have become an integral part of modern web design, providing a flexible and intuitive way to present information in a structured format.</p>
                         </Link>
                         <Link className='Home-Products-Card'>
-                            <img src={Product3} alt='P3'/>
+                            <div className='Home-Product-Img'>
+                                <img src={Product3} alt='P3'/>
+                            </div>
                             <p className='Home-Products-Name'>Transmission Box</p>
                             <p>The versatility of these CSS cards allows you to customize them to suit your specific needs. You can easily modify the colors, typography, spacing, and other design elements to align with your brand.</p>
                         </Link>
                         <Link className='Home-Products-Card'>
-                            <img src={Product4} alt='P4'/>
+                            <div className='Home-Product-Img'>
+                                <img src={Product4} alt='P4'/>
+                            </div>
                             <p className='Home-Products-Name'>Transmission Box</p>
                             <p>The versatility of these CSS cards allows you to customize them to suit your specific needs. You can easily modify the colors, typography, spacing, and other design elements to align with your brand.</p>
                         </Link>

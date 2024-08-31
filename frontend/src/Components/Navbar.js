@@ -23,7 +23,6 @@ const Navbar = () => {
         <Link to="/Projects" className={`Nav-Projects ${activeNav === "Nav-Projects" ? "active" : ""}`} onClick={() => handleClick("Nav-Projects")}>Projects</Link>
         <Link to="/Course" className={`Nav-Course ${activeNav === "Nav-Course" ? "active" : ""}`} onClick={() => handleClick("Nav-Course")}>Training Course</Link>
         <Link to="/Contact" className={`Nav-Contact ${activeNav === "Nav-Contact" ? "active" : ""}`} onClick={() => handleClick("Nav-Contact")}>Contact</Link>
-        <Link to="/Members" className={`Nav-Members ${activeNav === "Nav-Members" ? "active" : ""}`} onClick={() => handleClick("Nav-Members")}>Members</Link>
       </div>
     </div>
   );
