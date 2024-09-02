@@ -36,7 +36,7 @@ const Products=()=>{
                             </Link>
                             <Link className="Product-Card">
                                 <img src={Product2} alt="Product1"/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
+                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Analog )</p>
                                 <div className="Product-Info">
                                     <p>Hashan medicare manufactures cautery, which is a wet field Analog bipolar coagulator. It is a low power Electro Surgical Unit and is used to arrest bleeding from the blood vessels during ophthalmic surgery. This is specially designed to ensure smooth coagulation,  controlled performance and easy to operate potentiometer knob.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -44,7 +44,7 @@ const Products=()=>{
                             </Link>
                             <Link className="Product-Card">
                                 <img src={Product3} alt="Product1"/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
+                                <p className="Product-Title">Anterior Vitrectomy</p>
                                 <div className="Product-Info">
                                     <p></p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -52,7 +52,7 @@ const Products=()=>{
                             </Link>
                             <Link className="Product-Card">
                                 <img src={Product4} alt="Product1"/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
+                                <p className="Product-Title">Endo Illuminator White LED Light Source</p>
                                 <div className="Product-Info">
                                     <p>The LED light fiber design (0.5 mm) stabilizes the 23-25gauge tip in the eye and provides up to 20-25 lumen of measured illumination. Easy insertion and removal without suture placement make it convenient to change the position of the device during surgery and efficiently shorten surgical time. This suture-free 23-25gauge endo illumination efficiency of vitreous surgery. For most surgical sub specialties, the key to illumination is brightness the brighter the better.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -63,7 +63,7 @@ const Products=()=>{
                             
                             <Link className="Product-Card">
                                 <img src={Product5} alt="Product1" style={{width:"60%"}}/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
+                                <p className="Product-Title">Chair Unit</p>
                                 <div className="Product-Info">
                                     <p></p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -71,7 +71,7 @@ const Products=()=>{
                             </Link>
                             <Link className="Product-Card">
                                 <img src={Product6} alt="Product1"/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
+                                <p className="Product-Title">Vision Chart</p>
                                 <div className="Product-Info">
                                     <p></p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -79,7 +79,7 @@ const Products=()=>{
                             </Link>
                             <Link className="Product-Card">
                                 <img src={Product7} alt="Product1" style={{width:"60%"}}/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
+                                <p className="Product-Title">Motorised Table Unit</p>
                                 <div className="Product-Info">
                                     <p></p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>

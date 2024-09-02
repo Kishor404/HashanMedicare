@@ -108,15 +108,16 @@
 /* Services */
 
 .Home-Services-Cont{
-    background-color: rgb(108, 41, 233);
+    background-color: rgb(35, 144, 187);
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     width: 400px;
     padding: 20px;
     border-radius: 20px;
     margin: 0px 50px;
+    height: 700px;
 }
 .Home-Services{
     display: flex;
@@ -133,14 +134,15 @@
 .Home-Services-L{
     padding: 20px 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    height: 100%;
 }
 .Home-Services-L p{
     padding: 0px 0px 20px 0px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 14pt;
 }
 .Home-Services-But{
@@ -162,7 +164,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(108, 41, 233);
+    background-color: rgb(35, 144, 187);
     padding: 20px 0px;
 }
 .Home-Products-Cont{

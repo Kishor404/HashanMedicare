@@ -21,7 +21,7 @@ const About=()=>{
             <section>
                 <div className="About-Para-Cont">
                     <p className="About-Para-Cont-h">| Overview</p>
-                    <p className="About-Para-Cont-p">Hashan Medicare developed a wide variety of standard quality rich biomedical devices and to offer customized services and solutions that meet their individual needs and exact specifications of all electronic possessions.Hashan Medicare developed a wide variety of standard quality rich biomedical devices and to offer customized services and solutions that meet their individual needs and exact specifications of all electronic possessions.</p>
+                    <p className="About-Para-Cont-p">Hashan Medicare is dedicated to innovation and quality in the biomedical and electronics industry. We specialize in developing a diverse range of high-quality biomedical devices, designed to meet the stringent standards of the healthcare sector. Our commitment to excellence drives us to not only offer top-notch products but also to provide customized services and solutions tailored to the unique needs of our clients.<br/><br/>We understand that each client has specific requirements, and we strive to deliver solutions that precisely match their individual specifications. Whether it's developing cutting-edge biomedical devices or providing bespoke electronic services, Hashan Medicare is committed to excellence and customer satisfaction.</p>
                 </div>
             </section>
             <section className="About-Team">

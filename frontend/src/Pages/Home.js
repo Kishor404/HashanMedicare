@@ -33,7 +33,7 @@ const Home=()=>{
                             <p className='Home-Hero-Title'>HASHAN <span>MEDICARE</span></p>
                             <p className='Home-Hero-SubTitle'>​Be Deligent. Work Hard. Work Smart.</p>
                         </div>
-                        <p className='Home-Hero-Words'>Hashan Medicare developed a wide variety of standard quality rich biomedical devices and to offer customized services and solutions that meet their individual needs and exact specifications of all electronic possessions.Hashan Medicare developed a wide variety of standard quality rich biomedical devices and to offer customized services and solutions that meet their individual needs and exact specifications of all electronic possessions.</p>
+                        <p className='Home-Hero-Words'>Hashan Medicare is dedicated to innovation and quality in the biomedical and electronics industry. We specialize in developing a diverse range of high-quality biomedical devices, designed to meet the stringent standards of the healthcare sector. Our commitment to excellence drives us to not only offer top-notch products but also to provide customized services and solutions tailored to the unique needs of our clients.</p>
                         <Link className='Home-Hero-But'>More Info</Link>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Home=()=>{
                         </div>
                         <div className='Home-Services-L'>
                             <h1>Our Services</h1>
-                            <p>Hashan Medicare developed a wide variety of standard quality rich biomedical devices and to offer customized services and solutions that meet their individual needs and exact specifications of all electronic possessions.</p>
+                            <p>Hashan Medicare is at the forefront of innovation, specializing in the development of high-quality biomedical devices and cutting-edge Internet of Things (IoT) solutions. Our commitment to excellence is reflected in every product and service we offer, ensuring that we meet the precise needs and specifications of our clients.</p>
                             <Link className='Home-Services-But'>Learn More</Link>
                         </div>
                         
@@ -61,7 +61,7 @@ const Home=()=>{
                         </div>
                         <div className='Home-Services-L'>
                             <h1>Projects</h1>
-                            <p>Welcome to training and development Zone. We engaged ourselves in the services of evolving new ideas in Students from engineering, arts final year and school projects and we give excellent Implant and internship programs</p>
+                            <p>Have a project idea? Our team of professionals will work with you to design, build, and deploy custom IoT solutions tailored to your needs. We ensure that your projects are not only innovative but also reliable and scalable.</p>
                             <Link className='Home-Services-But'>Learn More</Link>
                         </div>
                         
@@ -72,7 +72,7 @@ const Home=()=>{
                         </div>
                         <div className='Home-Services-L'>
                             <h1>Training Course</h1>
-                            <p>Welcome to training and development Zone. We engaged ourselves in the services of evolving new ideas in Students from engineering, arts final year and school projects and we give excellent Implant and internship programs</p>
+                            <p>Our expert-led courses cover everything from the fundamentals of IoT to advanced applications. Designed for all skill levels, our training will equip you with the knowledge and tools needed to excel in the rapidly growing IoT industry.</p>
                             <Link className='Home-Services-But'>Learn More</Link>
                         </div>
                         
