@@ -34,7 +34,7 @@ const Home=()=>{
                             <p className='Home-Hero-SubTitle'>​Be Deligent. Work Hard. Work Smart.</p>
                         </div>
                         <p className='Home-Hero-Words'>Hashan Medicare is dedicated to innovation and quality in the biomedical and electronics industry. We specialize in developing a diverse range of high-quality biomedical devices, designed to meet the stringent standards of the healthcare sector. Our commitment to excellence drives us to not only offer top-notch products but also to provide customized services and solutions tailored to the unique needs of our clients.</p>
-                        <Link className='Home-Hero-But'>More Info</Link>
+                        <Link to="/About" className='Home-Hero-But'>More Info</Link>
                     </div>
                 </div>
                 <div className='Home-About'>
@@ -51,7 +51,7 @@ const Home=()=>{
                         <div className='Home-Services-L'>
                             <h1>Our Services</h1>
                             <p>Hashan Medicare is at the forefront of innovation, specializing in the development of high-quality biomedical devices and cutting-edge Internet of Things (IoT) solutions. Our commitment to excellence is reflected in every product and service we offer, ensuring that we meet the precise needs and specifications of our clients.</p>
-                            <Link className='Home-Services-But'>Learn More</Link>
+                            <Link to="/Services" className='Home-Services-But'>Learn More</Link>
                         </div>
                         
                     </div>
@@ -62,7 +62,7 @@ const Home=()=>{
                         <div className='Home-Services-L'>
                             <h1>Projects</h1>
                             <p>Have a project idea? Our team of professionals will work with you to design, build, and deploy custom IoT solutions tailored to your needs. We ensure that your projects are not only innovative but also reliable and scalable.</p>
-                            <Link className='Home-Services-But'>Learn More</Link>
+                            <Link to="/Projects" className='Home-Services-But'>Learn More</Link>
                         </div>
                         
                     </div>
@@ -73,7 +73,7 @@ const Home=()=>{
                         <div className='Home-Services-L'>
                             <h1>Training Course</h1>
                             <p>Our expert-led courses cover everything from the fundamentals of IoT to advanced applications. Designed for all skill levels, our training will equip you with the knowledge and tools needed to excel in the rapidly growing IoT industry.</p>
-                            <Link className='Home-Services-But'>Learn More</Link>
+                            <Link to="/Course" className='Home-Services-But'>Learn More</Link>
                         </div>
                         
                     </div>
@@ -113,7 +113,7 @@ const Home=()=>{
                             <p>The versatility of these CSS cards allows you to customize them to suit your specific needs. You can easily modify the colors, typography, spacing, and other design elements to align with your brand.</p>
                         </Link>
                     </div>
-                    <Link className='Home-Products-But'>View More</Link>
+                    <Link className='Home-Products-But' to="/Products">View More</Link>
                 </div>
             </section>
         </>
