@@ -34,7 +34,7 @@ const Home=()=>{
                             <p className='Home-Hero-SubTitle'>​Be Deligent. Work Hard. Work Smart.</p>
                         </div>
                         <p className='Home-Hero-Words'>Hashan Medicare is dedicated to innovation and quality in the biomedical and electronics industry. We specialize in developing a diverse range of high-quality biomedical devices, designed to meet the stringent standards of the healthcare sector. Our commitment to excellence drives us to not only offer top-notch products but also to provide customized services and solutions tailored to the unique needs of our clients.</p>
-                        <Link to="/About" className='Home-Hero-But'>More Info</Link>
+                        <Link To="/About" className='Home-Hero-But'>More Info</Link>
                     </div>
                 </div>
                 <div className='Home-About'>
