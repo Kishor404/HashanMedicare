@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
 const Home=()=>{
     return(
         <>
-            <section>
+            <section className='Home-Hero'>
                 <div className='Home-Hero-BG'>
                     <img src={HomeBG} alt='BG'/>
                     <div className='Home-Hero-BG-ColorScale'></div>
@@ -50,7 +50,7 @@ const Home=()=>{
                         </div>
                         <div className='Home-Services-L'>
                             <h1>Our Services</h1>
-                            <p>Hashan Medicare is at the forefront of innovation, specializing in the development of high-quality biomedical devices and cutting-edge Internet of Things (IoT) solutions. Our commitment to excellence is reflected in every product and service we offer, ensuring that we meet the precise needs and specifications of our clients.</p>
+                            <p>Hashan Medicare is at the forefront of innovation, specializing in the development of high-quality biomedical devices and cutting-edge Internet of Things (IoT) solutions. Our commitment to excellence is reflected in every product and service we offer.</p>
                             <Link to="/Services" className='Home-Services-But'>Learn More</Link>
                         </div>
                         
