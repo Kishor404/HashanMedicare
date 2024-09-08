@@ -55,7 +55,7 @@ const Home=()=>{
                         </div>
                         
                     </div>
-                    <div className='Home-Services-Cont'>
+                    <div className='Home-Services-Cont Home-Services-OP'>
                         <div className='Home-Services-R'>
                             <img src={IOT2} alt='IOT'/>
                         </div>

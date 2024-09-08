@@ -139,18 +139,17 @@
 .Home-Services-Cont{
     background-color: rgb(35, 144, 187);
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 25%;
-    padding: 20px;
+    width: 30%;
     border-radius: 20px;
-    margin: 0px 20px;
-    height: 700px;
+    height: 400px;
+    position: relative;
 }
 .Home-Services{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     padding: 80px 0px;
@@ -158,22 +157,26 @@
 .Home-Services-R img{
     border-radius: 16px;
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
+    filter: brightness(0.3);
 }
 .Home-Services-R{
+    position: absolute;
     width: 100%;
+    height: 100%;
 }
 .Home-Services-L{
-    padding: 20px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+    height: 90%;
+    width: 85%;
+    position: absolute;
+    color: white;
 }
 .Home-Services-L p{
-    padding: 0px 0px 20px 0px;
     text-align: justify;
     line-height: 25px;
     font-size: 14pt;
@@ -188,6 +191,51 @@
 .Home-Services-But:hover{
     background-color: white;
     color: #7636C8;
+}
+
+@media (max-width:1056px) {
+    .Home-Services-Cont{
+        height: 420px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:1010px) {
+    .Home-Services-L p{
+        font-size: 12pt;
+    }
+    .Home-Services-L h1{
+        font-size: 15pt;
+    }
+}
+@media (max-width:840px) {
+    .Home-Services{
+        flex-direction: column;
+    }
+    .Home-Services-Cont{
+        width: 80%;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .Home-Services-L{
+        height: 80%;
+    }
+}
+@media (max-width:545px) {
+    .Home-Services-Cont{
+        height: 350px;
+    }
+}
+@media (max-width:390px) {
+    .Home-Services-Cont{
+        height: 400px;
+    }
+    .Home-Services-L p{
+        font-size: 10pt;
+    }
+    .Home-Services-L h1{
+        font-size: 13pt;
+    }
 }
 
 /* Products */
