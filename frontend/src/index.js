@@ -9,7 +9,6 @@ import reportWebVitals from './reportWebVitals';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Products from './Pages/Products';
-import Projects from './Pages/Projects';
 import Course from "./Pages/Course";
 import Contact from './Pages/Contact';
 
@@ -26,7 +25,6 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Products" element={<Products />} />
-        <Route path="/Projects" element={<Projects />} />
         <Route path="/Course" element={<Course />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<h2>404 Page Not Found</h2>} />

@@ -5,7 +5,7 @@ import "../Styles/Course.css";
 const Course=()=>{
     return(
         <>
-        <section>
+        <section style={{marginTop:'10vh'}}>
             <div className="About-TopHeader TopHeader">
                 <img src={CourseImg} alt="About"/>
                 <div>

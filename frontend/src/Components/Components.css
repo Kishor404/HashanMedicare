@@ -184,3 +184,14 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width:800px) {
+    .Foot-Cont-Addr{
+        font-size: 12pt;
+    }
+    .Foot-But{
+        font-size: 12pt;
+    }
+    .Foot p{
+        font-size: 10pt;
+    }
+}

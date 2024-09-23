@@ -27,7 +27,6 @@ const Navbar = () => {
           <Link to="/About" className={`Nav-About ${activeNav === "Nav-About" ? "active" : ""}`} onClick={() => handleClick("Nav-About")}>About</Link>
           <Link to="/Products" className={`Nav-Products ${activeNav === "Nav-Products" ? "active" : ""}`} onClick={() => handleClick("Nav-Products")}>Products</Link>
           <Link to="/Services" className={`Nav-Services ${activeNav === "Nav-Services" ? "active" : ""}`} onClick={() => handleClick("Nav-Services")}>Services</Link>
-          <Link to="/Projects" className={`Nav-Projects ${activeNav === "Nav-Projects" ? "active" : ""}`} onClick={() => handleClick("Nav-Projects")}>Projects</Link>
           <Link to="/Course" className={`Nav-Course ${activeNav === "Nav-Course" ? "active" : ""}`} onClick={() => handleClick("Nav-Course")}>Training Course</Link>
           <Link to="/Contact" className={`Nav-Contact ${activeNav === "Nav-Contact" ? "active" : ""}`} onClick={() => handleClick("Nav-Contact")}>Contact</Link>
         </div>
@@ -48,7 +47,6 @@ const Navbar = () => {
           <Link to="/About" onClick={() => setIsNavOpen(false)}>About</Link>
           <Link to="/Products" onClick={() => setIsNavOpen(false)}>Products</Link>
           <Link to="/Services" onClick={() => setIsNavOpen(false)}>Services</Link>
-          <Link to="/Projects" onClick={() => setIsNavOpen(false)}>Projects</Link>
           <Link to="/Course" onClick={() => setIsNavOpen(false)}>Training Course</Link>
           <Link to="/Contact" onClick={() => setIsNavOpen(false)}>Contact</Link>
         </div>

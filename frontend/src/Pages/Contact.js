@@ -1,4 +1,5 @@
 import ContactLogo from "../Assets/Logo.png";
+import ContactImg from "../Assets/IOT4.jpg";
 
 import React from 'react';
 import MyMap from "../Components/MyMap";
@@ -8,7 +9,15 @@ import "../Styles/Contact.css"
 
 const Contact=()=>{
     return(
-        <>
+        <>  
+            <section style={{marginTop:'10vh'}}>
+                <div className="About-TopHeader TopHeader">
+                    <img src={ContactImg} alt="About"/>
+                    <div>
+                        <p>| Contact</p>
+                    </div>
+                </div>
+            </section>
             <section className="Contact-Body">
                 <div className="Contact-Cont">
                     <div className="Contact-L">
