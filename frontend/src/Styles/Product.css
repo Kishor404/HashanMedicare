@@ -1,5 +1,5 @@
 .Product-Card{
-    width:350px;
+    width:100%;
     background-color: #c4c2e0;
     height: 300px;
     border-radius: 20px;
@@ -8,12 +8,11 @@
     align-items:center;
     flex-direction: column;
     position: relative;
-    margin: 0px 30px;
     text-decoration: none;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 .Product-Card img{
-    width: 350px;
+    width: 100%;
     height: 220px;
     object-fit: cover;
     border-radius: 20px;
@@ -27,15 +26,18 @@
     font-family: var(--Font1);
 }
 .Product-Card .Product-Title{
-    font-size: 13pt;
+    font-size: 12pt;
     width: 100%;
+    padding: 0 0%;
     height: 80px;
+    
     background-color: black;
     color: white;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
@@ -65,15 +67,72 @@
     opacity: 1;
 }
 .Product-Row{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    width: 90%;
 }
 .Product-Col{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    padding: 80px;
+    padding: 80px 0px;
+}
+
+@media (max-width:1200px) {
+    .Product-Row{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:860px) {
+    .Product-Card{
+        height: 200px;
+    }
+    .Product-Card img{
+        height: 120px;
+    }
+    .Product-Card .Product-Title{
+        height: 60px;
+        font-size: 10pt;
+    }
+    .Product-Row{
+        grid-gap:20px;
+    }
+}
+@media (max-width:700px) {
+    .Product-Row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Product-Card{
+        height: 170px;
+    }
+    .Product-Card img{
+        height: 90px;
+    }
+    .Product-Card .Product-Title{
+        height: 50px;
+        font-size: 9pt;
+    }
+}
+@media (max-width:420px) {
+    .Product-Row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Product-Card{
+        height: 140px;
+        border-radius: 10px;
+    }
+    .Product-Card img{
+        height: 60px;
+        border-radius: 10px;
+    }
+    .Product-Card .Product-Title{
+        height: 50px;
+        font-size: 7pt;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
 }
