@@ -134,7 +134,6 @@
 }
 
 
-/* Services */
 
 .Home-Services-Cont{
     background-color: rgb(35, 144, 187);
@@ -238,8 +237,6 @@
         font-size: 13pt;
     }
 }
-
-/* Products */
 
 .Home-Products{
     display: flex;
@@ -351,4 +348,81 @@
         height: 300px;
     }
 
+}
+
+
+.NewHome-Services-Cont{
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+
+.NewHome-Services-Card{
+    background-color: var(--color2);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.178);
+
+}
+
+.NewHome-Services-Card .NewHome-Services-Img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.NewHome-Services-Img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.NewHome-Services-Card-Cont{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.3s ease-in;
+    color: white;
+}
+
+.NewHome-Services-Card-Title{
+    font-size: 14pt;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.NewHome-Services-Card-Text{
+    font-size: 11pt;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+    transition: max-height 0.5s ease-in, padding-bottom 0.5s ease-in;
+}
+
+.NewHome-Services-Card:hover .NewHome-Services-Card-Text{
+    max-height: 150px; 
+    padding-bottom: 10px;
+}
+.NewHome-Services-Card-All{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+.NewHome-Services-Title{
+    font-size: 18pt;
+    padding: 20px 0px 50px 0px;
 }

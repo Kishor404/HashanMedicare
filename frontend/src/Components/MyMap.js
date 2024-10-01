@@ -24,7 +24,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MyMap = () => {
   return (
-    <MapContainer center={[9.435920312684168, 77.55464800456141]} zoom={18} style={{ height: "100%", width: "100%" ,borderRadius:"20px"}}>
+    <MapContainer center={[9.435920312684168, 77.55464800456141]} zoom={18} style={{ height: "100%", width: "100%",zIndex:'0'}}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
