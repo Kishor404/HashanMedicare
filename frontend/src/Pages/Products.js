@@ -28,7 +28,7 @@ const Products=()=>{
                         <div className="Product-Row">
                             <Link className="Product-Card">
                                 <img src={Product1} alt="Product1"/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary (Digital)</p>
+                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Digital )</p>
                                 <div className="Product-Info">
                                     <p>Hashan Medicare manufactures cautary, which is a wet field digital bipolar coagulator. It is a low power Electro surgical Unit and is used to arrest bleeding from the blood vessels during ophthalmic surgery. This is specially designed to ensure smooth coagulation, micro-controller digital development, controlled performance and easy to operate button system for increment/ decrement.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -36,7 +36,7 @@ const Products=()=>{
                             </Link>
                             <Link className="Product-Card">
                                 <img src={Product2} alt="Product1"/>
-                                <p className="Product-Title">Wet Field Bi-Polar Cautary (Analog)</p>
+                                <p className="Product-Title">Wet Field Bi-Polar Cautary ( Analog )</p>
                                 <div className="Product-Info">
                                     <p>Hashan medicare manufactures cautery, which is a wet field Analog bipolar coagulator. It is a low power Electro Surgical Unit and is used to arrest bleeding from the blood vessels during ophthalmic surgery. This is specially designed to ensure smooth coagulation,  controlled performance and easy to operate potentiometer knob.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
@@ -58,6 +58,8 @@ const Products=()=>{
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
                                 </div>
                             </Link>
+                        </div>
+                        <div className="Product-Row">
                             
                             <Link className="Product-Card">
                                 <img src={Product5} alt="Product1" style={{width:"60%"}}/>
