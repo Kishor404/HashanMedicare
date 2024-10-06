@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeBG from '../Assets/HomeBG.png';
-
+import '../Styles/Home.css';
+// import Logo from "../Assets/Logo.png";
 import IOT1 from "../Assets/IOT1.jpg";
 import IOT2 from "../Assets/IOT2.jpg";
 import IOT3 from "../Assets/IOT3.jpeg";
@@ -10,16 +11,13 @@ import Product2 from "../Assets/Products/Product2.png";
 import Product3 from "../Assets/Products/Product3.png";
 import Product4 from "../Assets/Products/Product4.png";
 
+
+
 import { Link } from 'react-router-dom';
-
-import  '../Styles/Home.css'
-
-
 
  
 
 const Home=()=>{
-
     return(
         <>
             <section className='Home-Hero'>
@@ -28,6 +26,9 @@ const Home=()=>{
                     <div className='Home-Hero-BG-ColorScale'></div>
                     <div className='Home-Hero-Cont'>
                         <p className='Home-Hero-Welcome'>Welcome To</p>
+                        {/* <div className='Home-Hero-LogoCircle'>
+                            <img src={Logo} alt='Logo'/>
+                        </div> */}
                         <div className='Home-Hero-Title-Cont'>
                             <p className='Home-Hero-Title'>HASHAN <span>MEDICARE</span></p>
                             <p className='Home-Hero-SubTitle'>​Be Deligent. Work Hard. Work Smart.</p>
@@ -40,6 +41,7 @@ const Home=()=>{
 
                 </div>
             </section>
+            {/* Services */}
             <section>
                 <div className='Home-Services'>
                     <div className='Home-Services-Cont'>
@@ -77,62 +79,7 @@ const Home=()=>{
                     </div>
                 </div>
             </section>
-            <section id="Services">
-                <div className="NewHome-Services-Cont">
-                    <p className="NewHome-Services-Title">| Services</p>
-                    <div className="NewHome-Services-Card-All">
-                        <div className="NewHome-Services-Card">
-                            <div className='NewHome-Services-Img'>
-                                <img src={Product1} alt="IOT Projects"/>
-                            </div>
-                            <div className="NewHome-Services-Card-In">
-                                <div className="NewHome-Services-Card-Cont">
-                                    <p className="NewHome-Services-Card-Title">IOT Projects</p>
-                                    <p className="NewHome-Services-Card-Text">Sunt aliqua cupidatat ipsum eu elit labore minim ipsum do. Ex sunt ad commodo ea est. <br/>Cillum proident velit labore aliqua ut sunt. Eu exercitation aliquip id occaecat duis est minim aliquip eiusmod anim excepteur id.</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div className="NewHome-Services-Card">
-                            <div className='NewHome-Services-Img'>
-                                <img src={Product2} alt="Data Analysis Projects"/>
-                            </div>
-                            <div className="NewHome-Services-Card-In">
-                                <div className="NewHome-Services-Card-Cont">
-                                    <p className="NewHome-Services-Card-Title">Data Analysis Projects</p>
-                                    <p className="NewHome-Services-Card-Text">Sunt aliqua cupidatat ipsum eu elit labore minim ipsum do. Ex sunt ad commodo ea est. <br/>Cillum proident velit labore aliqua ut sunt. Eu exercitation aliquip id occaecat duis est minim aliquip eiusmod anim excepteur id.</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div className="NewHome-Services-Card">
-                            <div className='NewHome-Services-Img'>
-                                <img src={Product3} alt="App Development"/>
-                            </div>
-                            <div className="NewHome-Services-Card-In">
-                                <div className="NewHome-Services-Card-Cont">
-                                    <p className="NewHome-Services-Card-Title">App Development</p>
-                                    <p className="NewHome-Services-Card-Text">Sunt aliqua cupidatat ipsum eu elit labore minim ipsum do. Ex sunt ad commodo ea est. <br/>Cillum proident velit labore aliqua ut sunt. Eu exercitation aliquip id occaecat duis est minim aliquip eiusmod anim excepteur id.</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div className="NewHome-Services-Card">
-                            <div className='NewHome-Services-Img'>
-                                <img src={Product4} alt="Web Development"/>
-                            </div>
-                            <div className="NewHome-Services-Card-In">
-                                <div className="NewHome-Services-Card-Cont">
-                                    <p className="NewHome-Services-Card-Title">Website Development</p>
-                                    <p className="NewHome-Services-Card-Text">Sunt aliqua cupidatat ipsum eu elit labore minim ipsum do. Ex sunt ad commodo ea est. <br/>Cillum proident velit labore aliqua ut sunt. Eu exercitation aliquip id occaecat duis est minim aliquip eiusmod anim excepteur id.</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* <section>
+            <section>
                 <div className='Home-Products'>
                     <p className='Home-Products-Title'>| Our Products</p>
                     <div className='Home-Products-Cont'>
@@ -168,7 +115,7 @@ const Home=()=>{
                     </div>
                     <Link className='Home-Products-But' to="/Products">View More</Link>
                 </div>
-            </section> */}
+            </section>
         </>
     );
 };

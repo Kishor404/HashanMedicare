@@ -1,4 +1,5 @@
 .Course-Card{
+    background-color: red;
     position: relative;
     width: 300px;
     height: 200px;
@@ -7,6 +8,7 @@
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    margin: 20px;
 }
 .Course-Card div,.Course-Card img{
     position: absolute;
@@ -21,7 +23,6 @@
     align-items: center;
     border-radius: 20px;
     font-size: 15pt;
-    object-fit: cover;
 }
 .Course-Card div:hover{
     background-color: rgba(0, 0, 0, 0.541);
@@ -34,10 +35,7 @@
     flex-direction: column;
 }
 .Course-Row{
-    margin: 40px 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -51,55 +49,4 @@
 }
 .Course-Title{
     font-size: 20pt;
-}
-
-@media (max-width:1400px) {
-    .Course-Row{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .Course-Card{
-        width: 250px;
-    }
-    .Course-Card div,.Course-Card img{
-        width: 250px;
-    }
-}
-
-@media (max-width:900px) {
-    .Course-Row{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (max-width:700px) {
-    .Course-Row{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .Course-Card{
-        width: 180px;
-        height: 140px;
-    }
-    .Course-Card div,.Course-Card img{
-        width: 180px;
-        height: 140px;
-    }
-    .Course-Card div p{
-        font-size: 11pt;
-    }
-}
-
-@media (max-width:450px) {
-    .Course-Row{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .Course-Card{
-        width: 300px;
-        height: 200px;
-    }
-    .Course-Card div,.Course-Card img{
-        width: 300px;
-        height: 200px;
-    }
-    .Course-Card div p{
-        font-size: 11pt;
-    }
 }
