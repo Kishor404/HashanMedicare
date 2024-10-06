@@ -9,6 +9,7 @@
     flex-direction: column;
     border-radius: 20px;
     margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.178);
 }
 .Course-Card div,.Course-Card img{
     position: absolute;

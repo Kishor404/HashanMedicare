@@ -1,10 +1,9 @@
-.Contact-Body{
+/* .Contact-Body{
     width:100%;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .Contact-Cont{
@@ -55,4 +54,171 @@
 .Contact-R button:hover{
     background-color: transparent;
     color: purple;
+} */
+
+.Contact-Cont{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-Card{
+    padding: 40px;
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow:  13px 13px 26px #c1c1c1,
+                 -13px -13px 26px #ffffff;
+    
+}
+.Contact-L{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 35px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.178);
+    background: #e0e0e0;
+}
+.Contact-Map{
+    width: 100%;
+    height: 100%;
+}
+.Contact-R{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow: inset 12px 12px 24px #c1c1c1,
+                inset -12px -12px 24px #ffffff;
+}
+.Contact-T{
+        color:red;
+        font-family: var(--Font4);
+        font-size: 40px;
+        margin: 0px;
+}
+.Contact-T span{
+    color: black;
+}
+.Contact-R div{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-R div p{
+    margin: 8px;
+    font-size: 13pt;
+}
+.Contact-R button{
+    border: none;
+    background-color: red;
+    padding: 15px 30px;
+    font-size: 12pt;
+    border-radius: 15px;
+    font-family: var(--Font1);
+}
+
+@media (max-width:1320px) {
+    .Contact-Card{
+        width: 80%;
+        padding: 30px;
+    }
+}
+@media (max-width:1111px) {
+    
+    .Contact-Card{
+        width: 85%;
+        padding: 30px;
+        height: 45vh;
+    }
+    .Contact-T{
+        font-size: 30px;
+    }
+    .Contact-R div p{
+        font-size: 12pt;
+    }
+    .Contact-R button{
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+}
+@media (max-width:878px) {
+    .Contact-Cont{
+        height: 60vh;
+    }
+    .Contact-Card{
+        width: 85%;
+        padding: 30px;
+        height: 40vh;
+    }
+    .Contact-T{
+        font-size: 25px;
+    }
+    .Contact-R div p{
+        font-size: 11pt;
+    }
+    .Contact-R button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 11pt;
+    }
+}
+
+@media (max-width:670px) {
+    .Contact-Cont{
+        height: 90vh;
+    }
+    .Contact-Card{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 70%;
+        border-radius: 20px;
+        padding: 25px;
+        height: 70vh;
+    }
+    .Contact-L{
+        border-radius: 20px;
+        width: 100%;
+        height: 45%;
+    }
+    .Contact-R{
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media (max-width:350px) {
+    .Contact-Cont{
+        height: 90vh;
+    }
+    .Contact-Card{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 75%;
+        height: 70vh;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .Contact-L{
+        width: 100%;
+        height: 45%;
+        border-radius: 20px;
+    }
+    .Contact-R{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
 }
