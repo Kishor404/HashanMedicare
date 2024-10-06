@@ -8,7 +8,6 @@
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
-    margin: 20px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.178);
 }
 .Course-Card div,.Course-Card img{
@@ -36,9 +35,10 @@
     flex-direction: column;
 }
 .Course-Row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 30px;
 }
 .Course-Cont{
     width: 100%;
@@ -50,4 +50,43 @@
 }
 .Course-Title{
     font-size: 20pt;
+    padding-bottom: 20px;
+}
+
+@media (max-width:1360px) {
+    .Course-Row{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:1020px) {
+    .Course-Card,.Course-Card div,.Course-Card img{
+        width: 200px;
+    }
+    .Course-Card div p{
+        font-size: 12pt;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+@media (max-width:710px) {
+    .Course-Row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Course-Card,.Course-Card div,.Course-Card img{
+        width: 170px;
+        height: 170px;
+    }
+}
+@media (max-width:395px) {
+    .TopHeader div p{
+        font-size: 20pt;
+        padding-left: 30px;
+    }
+    .Course-Row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Course-Card,.Course-Card div,.Course-Card img{
+        width: 280px;
+        height: 200px;
+    }
 }

@@ -42,8 +42,6 @@ const Course=()=>{
                                 <p>Image Processing</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="Course-Row">
                         <div className="Course-Card">
                             <img src={CourseImg} alt="Course"/>
                             <div>
