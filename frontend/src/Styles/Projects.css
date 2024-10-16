@@ -22,7 +22,7 @@
 
 }
 .Project-Card{
-    width: 400px;
+    width: 350px;
     padding: 20px;
     background-color: #e0e0e0;
     overflow: hidden;
@@ -54,4 +54,59 @@
     font-size: 12pt;
     line-height: 20px;
     text-align: justify;
+}
+
+@media (max-width:1366px) {
+    .Project-Card{
+        width: 300px;
+    }
+}
+@media (max-width:1212px) {
+    .Project-Card{
+        width: 250px;
+    }
+    .Project-Card-Cont{
+        grid-gap:40px;
+    }
+}
+@media (max-width:1014px) {
+    .Project-Card{
+        width: 280px;
+    }
+    .Project-Card-Cont{
+        grid-gap:50px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:750px) {
+    .Project-Card{
+        width: 300px;
+    }
+    .Project-Card-Cont{
+        grid-gap:50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:380px) {
+    .Project-Card{
+        width: 280px;
+    }
+    .Project-Card-Cont{
+        grid-gap:50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:360px) {
+    .Project-Card{
+        width: 230px;
+    }
+    .Project-Card-Cont{
+        grid-gap:50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:600px) {
+    .Project-Filler{
+        height:8vh;
+    }
 }
