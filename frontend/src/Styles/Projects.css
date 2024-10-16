@@ -1,0 +1,57 @@
+.Project-Page{
+    padding-bottom: 40px;
+}
+.Project-Title{
+    font-size: 20pt;
+    padding-bottom: 30px;
+}
+.Project-Filler{
+    height:10vh;
+}
+.Project-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.Project-Card-Cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:60px;
+
+}
+.Project-Card{
+    width: 400px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  19px 19px 38px #b8b8b8,
+                 -19px -19px 38px #ffffff;
+}
+.Project-Card img{
+    border-radius: 16px;
+}
+.Project-Det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.Project-Det h6{
+    font-weight: 400;
+    font-size: 14pt;
+    margin: 0;
+    padding: 30px 0;
+}
+.Project-Det p{
+    margin: 0;
+    font-size: 12pt;
+    line-height: 20px;
+    text-align: justify;
+}
