@@ -1,0 +1,198 @@
+/* --------- NAVBAR ----------- */
+
+.NavBar{
+    background-color: white;
+    height: 10vh;
+
+    padding: 0px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+.NavBar .Nav-R img{
+    width: 120px;
+    cursor: pointer;
+}
+.NavBar .Nav-L{
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NavBar .Nav-L a{
+    color: black;
+    text-decoration: none;
+    font-family: var(--Font1);
+}
+.NavBar .Nav-L a.active{
+    color:#7636C8;
+}
+.Res-NavBar{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background-color: white;
+}
+.Res-Nav-L{
+    width: 40px;
+    padding-right: 10px;
+}
+.Res-Nav-R{
+    width: 100px;
+}
+.Res-Nav-R img{
+    width: 100%;
+}
+.Res-Nav-L button{
+    background-color: transparent;
+    border: none;
+}
+.Res-Nav-L img{
+    width: 100%;
+}
+.Res-Nav-Nav{
+    transform: translateX(-100%);
+    display: flex;
+    position: fixed;
+    top:10vh;
+    bottom: 0;
+    left: 0;
+    background-color:lightgray;
+    z-index: 4;
+    flex-direction: column;
+    width: 40%;
+    justify-content: start;
+    align-items: center;
+    padding-top: 20px;
+    transition: all 0.4s ease-in-out;
+}
+.res-nav-open{
+    transform: translateX(0);
+}
+.Res-Nav-Nav a{
+    width: 80%;
+    padding:20px 0px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 0.1em solid rgb(122, 122, 122);
+}
+.res-nav-open a:hover{
+    background-color: grey;
+}
+
+@media (max-width:950px) {
+    .NavBar{
+        display: none;
+    }
+    .Res-NavBar{
+        display: flex;
+    }
+}
+@media (max-width:600px) {
+    .Res-NavBar{
+        height: 8vh;
+    }
+    .Home-Hero{
+        padding-top: 8vh;
+    }
+    .Res-Nav-Nav{
+        top: 8vh;
+    }
+}
+
+/* -------- FOOTER ---------- */
+
+.Foot-Contact{
+    background-color: #7636C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 40vh;
+}
+.Foot-Cont-Title{
+    color:rgb(218, 6, 6);
+    font-family: var(--Font4);
+    font-size: 40px;
+    margin: 0px;
+}
+.Foot-Cont-Title span{
+    color: white;
+}
+.Foot-Cont-Addr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 14pt;
+    color: white;
+}
+.Foot-Cont-Addr p{
+    margin: 5px;
+}
+.Foot-But{
+    background-color: #7636C8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13pt;
+    font-family: var(--Font1);
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.178);
+}
+.Foot-Contact img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    position: absolute;
+}
+.Foot-Data{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #11002794;
+    height: 100%;
+}
+.Foot-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+
+.Foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px) {
+    .Foot-Cont-Addr{
+        font-size: 12pt;
+    }
+    .Foot-But{
+        font-size: 12pt;
+    }
+    .Foot p{
+        font-size: 10pt;
+    }
+}
