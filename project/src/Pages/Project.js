@@ -14,14 +14,11 @@ import "../Styles/Projects.css";
 const Projects = () => {
     return (
         <>
-            <section className="Project-Filler">
-                {/* FILLER */}
-            </section>
 
             {/* Projects Header */}
             <section>
-                <div className="About-TopHeader TopHeader">
-                    <img src={ProjectImg} alt="About" />
+                <div className="Project-TopHeader TopHeader">
+                    <img src={ProjectImg} alt="Project" />
                     <div>
                         <p>| Projects</p>
                     </div>

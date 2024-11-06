@@ -1,6 +1,5 @@
 import "./Components.css"
 import IOT4 from "../Assets/IOT4.jpg"
-import logo from "../Assets/Logo.png"
 
 const Footer=()=>{
     return(

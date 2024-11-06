@@ -1,8 +1,6 @@
-import ContactLogo from "../Assets/Logo.png";
 import ContactImg from "../Assets/IOT4.jpg";
 
 import React from 'react';
-import MyMap from "../Components/MyMap";
 
 import "../Styles/Contact.css"
 

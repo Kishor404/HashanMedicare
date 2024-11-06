@@ -5,9 +5,6 @@
     font-size: 20pt;
     padding-bottom: 30px;
 }
-.Project-Filler{
-    height:10vh;
-}
 .Project-Cont{
     display: flex;
     justify-content: center;
@@ -56,6 +53,35 @@
     font-size: 12pt;
     line-height: 20px;
     text-align: justify;
+}
+.Project-TopHeader{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.Project-TopHeader img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    filter: brightness(0.4);
+    object-fit: cover;
+}
+.Project-TopHeader div{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    color: white;
 }
 
 @media (max-width:1366px) {

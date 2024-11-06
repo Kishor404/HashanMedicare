@@ -12,7 +12,6 @@ import Products from './Pages/Products';
 import Course from "./Pages/Course";
 import Contact from './Pages/Contact';
 
-import Project from './Pages/Project';
 
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -29,7 +28,6 @@ root.render(
         <Route path="/Products" element={<Products />} />
         <Route path="/Course" element={<Course />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Project" element={<Project />} />
 
         <Route path="*" element={<h2>404 Page Not Found</h2>} />
       </Routes>

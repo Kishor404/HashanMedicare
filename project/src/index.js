@@ -8,7 +8,6 @@ import reportWebVitals from './reportWebVitals';
 
 import Project from './Pages/Project';
 
-import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
 
@@ -16,7 +15,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Project />} />
         <Route path="/Project" element={<Project />} />
