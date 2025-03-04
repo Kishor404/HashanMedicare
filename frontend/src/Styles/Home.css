@@ -153,6 +153,7 @@
     align-items: center;
     width: 100%;
     padding: 80px 0px;
+    background-color: white;
 }
 .Home-Services-R img{
     border-radius: 16px;
@@ -249,7 +250,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #c4c2e0;
+    background-color: #e2e2e2;
     padding: 20px 0px;
     width: 100%;
 }

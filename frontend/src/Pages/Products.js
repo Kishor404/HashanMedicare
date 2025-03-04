@@ -22,7 +22,7 @@ const Products=()=>{
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="Product-Section">
                 <div>
                     <div className="Product-Col">
                         <div className="Product-Row">
@@ -46,7 +46,7 @@ const Products=()=>{
                                 <img src={Product3} alt="Product1"/>
                                 <p className="Product-Title">Anterior Vitrectomy</p>
                                 <div className="Product-Info">
-                                    <p></p>
+                                    <p>Anterior vitrectomy is a surgical procedure performed to remove the vitreous gel from the front (anterior) portion of the eye. It is typically done when the vitreous humor moves into the anterior chamber due to trauma, cataract surgery complications, or certain eye conditions.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
                                 </div>
                             </Link>
@@ -63,7 +63,7 @@ const Products=()=>{
                                 <img src={Product5} alt="Product1" style={{width:"60%"}}/>
                                 <p className="Product-Title">Chair Unit</p>
                                 <div className="Product-Info">
-                                    <p></p>
+                                    <p>A Chair Unit in ophthalmology refers to a specialized ophthalmic examination and surgical chair designed for patient comfort and easy access during eye examinations and procedures. It is commonly used in clinics, hospitals, and eye surgery centers.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
                                 </div>
                             </Link>
@@ -71,7 +71,7 @@ const Products=()=>{
                                 <img src={Product6} alt="Product1"/>
                                 <p className="Product-Title">Vision Chart</p>
                                 <div className="Product-Info">
-                                    <p></p>
+                                    <p>A Vision Chart, also known as an eye chart, is a tool used by eye care professionals to measure a person's visual acuity. It helps assess how well a person can see at a specific distance and detect vision problems like myopia (nearsightedness), hyperopia (farsightedness), and astigmatism.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
                                 </div>
                             </Link>
@@ -79,7 +79,7 @@ const Products=()=>{
                                 <img src={Product7} alt="Product1" style={{width:"60%"}}/>
                                 <p className="Product-Title">Motorised Table Unit</p>
                                 <div className="Product-Info">
-                                    <p></p>
+                                    <p>A Motorized Table Unit is a specialized table designed for medical and ophthalmic equipment, allowing smooth height adjustments and positioning using an electric motor. It is commonly used in eye clinics, hospitals, and diagnostic centers to support devices like slit lamps, phoropters, autorefractors, and lasers.</p>
                                     <p style={{fontSize:"14pt"}}>Click To More Info !</p>
                                 </div>
                             </Link>

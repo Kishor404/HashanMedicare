@@ -51,7 +51,7 @@ const Home=()=>{
                         <div className='Home-Services-L'>
                             <h1>Our Services</h1>
                             <p>Hashan Medicare is at the forefront of innovation, specializing in the development of high-quality biomedical devices and cutting-edge Internet of Things (IoT) solutions. Our commitment to excellence is reflected in every product and service we offer.</p>
-                            <Link to="/Services" className='Home-Services-But'>Learn More</Link>
+                            <Link to="#" className='Home-Services-But'>Learn More</Link>
                         </div>
                         
                     </div>
@@ -62,7 +62,7 @@ const Home=()=>{
                         <div className='Home-Services-L'>
                             <h1>Projects</h1>
                             <p>Have a project idea? Our team of professionals will work with you to design, build, and deploy custom IoT solutions tailored to your needs. We ensure that your projects are not only innovative but also reliable and scalable.</p>
-                            <Link to="/Projects" className='Home-Services-But'>Learn More</Link>
+                            <Link to="#" className='Home-Services-But'>Learn More</Link>
                         </div>
                         
                     </div>
